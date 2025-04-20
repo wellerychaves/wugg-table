@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Dinâmica</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .table-selector {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .table-selector label {
+            margin-right: 10px;
+            font-weight: bold;
+            color: #777;
+        }
+        .table-selector button {
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #eee;
+            color: #555;
+        }
+        .table-selector button:hover {
+            background-color: #ddd;
+        }
+        .filter-controls {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .filter-controls label {
+            margin-right: 10px;
+            font-weight: bold;
+            color: #777;
+        }
+        .filter-controls button {
+            padding: 8px 12px;
+            margin-right: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #f9f9f9;
+            color: #555;
+        }
+        .filter-controls button:hover {
+            background-color: #eee;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        #table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #f8f8f8;
+            color: #333;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        #table thead th {
+            background-color: #ddd;
+            color: #555;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            border-bottom: 2px solid #ccc;
+        }
+        #table tbody td {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        #table tbody tr:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ai ai bixo</h1>
+
+        <div class="table-selector">
+            
+            <button onclick="updateTable(0)">Tabela 1</button>
+            <button onclick="updateTable(1)">Tabela 2</button>
+            <button onclick="updateTable(2)">Tabela 3</button>
+        </div>
+
+        <div class="filter-controls">
+            
+            <button onclick="tableFilter('')">Mostrar Todas</button>
+            <button onclick="tableFilter('A')">A</button>
+            <button onclick="tableFilter('B')">B</button>
+            <button onclick="tableFilter('C')">C</button>
+            <button onclick="tableFilter('D')">D</button>
+            <button onclick="tableFilter('E')">E</button>
+            <button onclick="tableFilter('S1')">S1</button>
+            <button onclick="tableFilter('S2')">S2</button>
+            <button onclick="tableFilter('Open')">Open</button>
+        </div>
+
+        <div class="table-container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Track Name</th>
+                        <th>Class</th>
+                        <th>Game Mode</th>
+                        <th>PU</th>
+                        <th>Track ID</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const tableBody = document.getElementById("table").getElementsByTagName("tbody")[0];
+        let actualData = null;
+        let actualClass = "";
+        const filterColumn = "class";
+        const cacheTables = {};
+
+        async function loadTableData(index) {
+    const fileName = `table${index + 1}.json`;
+    const filePath = `./${fileName}`; // ou apenas `${fileName}`
+
+    if (cacheTables[index]) {
+        console.log(`data from ${index + 1} was loaded to cache`);
+        return cacheTables[index];
+    }
+
+    try {
+        const res = await fetch(filePath);
+
+        if (!res.ok) {
+            throw new Error(`Failed to load ${filePath}: ${res.status}`);
+        }
+
+        const data = await res.json();
+        cacheTables[index] = data;
+
+        console.log(`Data from table ${index + 1} loaded from ${filePath}`);
+        console.log(data)
+        return data;
+    } catch (err) {
+        console.error("Failed to load data", err);
+        return null;
+    }
+}
+
+        async function updateTable(index) {
+            actualData = await loadTableData(index);
+            if (actualData) {
+                showTable(actualData);
+                tableFilter(actualClass);
+            }
+        }
+
+        function showTable(data) {
+            tableBody.innerHTML = "";
+
+            if (!data) return;
+
+            for (let i = 0; i < data.length; i++) {
+                const track = data[i];
+                const newLine = tableBody.insertRow();
+                newLine.insertCell().textContent = track.trackName;
+                newLine.insertCell().textContent = track.class;
+                newLine.insertCell().textContent = track.gameMode;
+                newLine.insertCell().textContent = track.pu ? "Yes" : "No";
+                newLine.insertCell().textContent = track.trackId;
+            }
+        }
+
+        function tableFilter(selectedClass) {
+            actualClass = selectedClass;
+
+            if (!actualData) return;
+
+            const filteredData = actualData.filter(item => {
+                return actualClass === "" || item[filterColumn] === actualClass;
+            });
+
+            showTable(filteredData);
+        }
+
+        // Carregar a primeira tabela inicialmente
+        updateTable(0);
+        // Mostrar todas as classes inicialmente
+        tableFilter("");
+    </script>
+</body>
+</html>
