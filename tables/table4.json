@@ -1,0 +1,723 @@
+[
+    {
+        "class": "A",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 144,
+        "trackName": "College Loop"
+    },
+    {
+        "class": "A",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1612,
+        "trackName": "Infinity Park"
+    },
+    {
+        "class": "A",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 133,
+        "trackName": "Ironhorse"
+    },
+    {
+        "class": "A",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1666,
+        "trackName": "Ocean Heights"
+    },
+    {
+        "class": "A",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1270,
+        "trackName": "Downtown Tunnel"
+    },
+    {
+        "class": "A",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1190,
+        "trackName": "Route 55 & North Bay"
+    },
+    {
+        "class": "A",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 14,
+        "trackName": "Station & Fisher"
+    },
+    {
+        "class": "A",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 91,
+        "trackName": "Union Row & Seaside"
+    },
+    {
+        "class": "A",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 194,
+        "trackName": "Heritage & Rosewood"
+    },
+    {
+        "class": "A",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 803,
+        "trackName": "Ocean Diamond"
+    },
+    {
+        "class": "B",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 185,
+        "trackName": "Bayshore"
+    },
+    {
+        "class": "B",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1431,
+        "trackName": "Buk Marx"
+    },
+    {
+        "class": "B",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1451,
+        "trackName": "Silverton Connection"
+    },
+    {
+        "class": "B",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 106,
+        "trackName": "Valley & HWY 201"
+    },
+    {
+        "class": "B",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1433,
+        "trackName": "Commercial Rezoning"
+    },
+    {
+        "class": "B",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1645,
+        "trackName": "Rockport Rush"
+    },
+    {
+        "class": "B",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 167,
+        "trackName": "Union Row & HWY 99"
+    },
+    {
+        "class": "B",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 288,
+        "trackName": "University Avenue"
+    },
+    {
+        "class": "B",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 103,
+        "trackName": "Camden & Seaside"
+    },
+    {
+        "class": "B",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 370,
+        "trackName": "Compromised"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1828,
+        "trackName": "Downtown Bond"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1428,
+        "trackName": "Downtown Rumble"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 157,
+        "trackName": "Financial District"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1825,
+        "trackName": "First Brew"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1679,
+        "trackName": "Highway Connection"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 282,
+        "trackName": "Knife's Edge"
+    },
+    {
+        "class": "C",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 826,
+        "trackName": "Tripping Hazard"
+    },
+    {
+        "class": "C",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 226,
+        "trackName": "Canmor Road"
+    },
+    {
+        "class": "C",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1303,
+        "trackName": "Dover & Lepus"
+    },
+    {
+        "class": "C",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1430,
+        "trackName": "Highland Trails"
+    },
+    {
+        "class": "C",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 30,
+        "trackName": "Union & Hollis"
+    },
+    {
+        "class": "C",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 173,
+        "trackName": "Union & Rockridge"
+    },
+    {
+        "class": "C",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 357,
+        "trackName": "Home Run"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1687,
+        "trackName": "Construction Way"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 823,
+        "trackName": "HWY 201 East"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1822,
+        "trackName": "Lincoln Connectors"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 52,
+        "trackName": "Lucky Towers"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 621,
+        "trackName": "Old Bridge"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1654,
+        "trackName": "Underpass"
+    },
+    {
+        "class": "D",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1820,
+        "trackName": "West Rosewood"
+    },
+    {
+        "class": "D",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1593,
+        "trackName": "Camden Dirt Roads"
+    },
+    {
+        "class": "D",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 210,
+        "trackName": "Skyview & Campus"
+    },
+    {
+        "class": "D",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 224,
+        "trackName": "The Neon Mile"
+    },
+    {
+        "class": "D",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1575,
+        "trackName": "Waterfront & Century"
+    },
+    {
+        "class": "D",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 545,
+        "trackName": "Asylum & Route 55"
+    },
+    {
+        "class": "D",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 807,
+        "trackName": "Aqueduct Anomaly"
+    },
+    {
+        "class": "E",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 302,
+        "trackName": "Beachfront"
+    },
+    {
+        "class": "E",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1661,
+        "trackName": "Fortuna Intersection"
+    },
+    {
+        "class": "E",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 423,
+        "trackName": "Konopa Street"
+    },
+    {
+        "class": "E",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1626,
+        "trackName": "Ocean Hills Drive"
+    },
+    {
+        "class": "E",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 829,
+        "trackName": "The Mirror"
+    },
+    {
+        "class": "E",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 41,
+        "trackName": "Chinatown Delivery"
+    },
+    {
+        "class": "E",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1306,
+        "trackName": "Foundry Road"
+    },
+    {
+        "class": "E",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 205,
+        "trackName": "HWY 99 & Highlands"
+    },
+    {
+        "class": "E",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1552,
+        "trackName": "Industrial Rush"
+    },
+    {
+        "class": "E",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 188,
+        "trackName": "Harbour & Ocean"
+    },
+    {
+        "class": "E",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 805,
+        "trackName": "Gray Imports"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 24,
+        "trackName": "College Mall"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1824,
+        "trackName": "Penitentiary"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 195,
+        "trackName": "Switchback"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1418,
+        "trackName": "Trojan Horse"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1690,
+        "trackName": "Twist Road"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1142,
+        "trackName": "Bay Bridge & Forest"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 821,
+        "trackName": "Construction Sites"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 277,
+        "trackName": "Mason St Bridge"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 109,
+        "trackName": "Seagate & Camden"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1686,
+        "trackName": "Wyle Center District"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 127,
+        "trackName": "Rosewood & Heritage"
+    },
+    {
+        "class": "S1",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 380,
+        "trackName": "Last Resort"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 670,
+        "trackName": "Camden & North Bay"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 827,
+        "trackName": "Global Widget"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 279,
+        "trackName": "Robinson Bay"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1356,
+        "trackName": "Rockport Circuit"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1354,
+        "trackName": "Rockport Park"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 151,
+        "trackName": "Chase & Projects"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1600,
+        "trackName": "Delivery Run"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 93,
+        "trackName": "Ironhorse & Bristol"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1193,
+        "trackName": "Rosewood & HWY 99"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 547,
+        "trackName": "HIghway Duel"
+    },
+    {
+        "class": "S2",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 799,
+        "trackName": "Dinner Stakeout"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1601,
+        "trackName": "Auto 150"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1604,
+        "trackName": "B Route"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1353,
+        "trackName": "Chinatown Loop"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 540,
+        "trackName": "Complex String"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 564,
+        "trackName": "Constructed Route"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1218,
+        "trackName": "Downtown Loop"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": true,
+        "trackId": 338,
+        "trackName": "Kempton Foundry"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Circuit",
+        "pu": false,
+        "trackId": 1611,
+        "trackName": "Ram Quarter"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1541,
+        "trackName": "Complex String"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1692,
+        "trackName": "Cow Run"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 219,
+        "trackName": "Downtown Run"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 560,
+        "trackName": "Explore The World"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 699,
+        "trackName": "Fateful Night"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1232,
+        "trackName": "Flash Line"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 608,
+        "trackName": "Forest Trials"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 269,
+        "trackName": "Road Trip"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1607,
+        "trackName": "Rockport Tour"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1542,
+        "trackName": "The Final Run"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1557,
+        "trackName": "Turnpike Dash"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": false,
+        "trackId": 1698,
+        "trackName": "World Loop"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Sprint",
+        "pu": true,
+        "trackId": 605,
+        "trackName": "World Tour"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Drag",
+        "pu": true,
+        "trackId": 614,
+        "trackName": "Rosewood Circuit"
+    },
+    {
+        "class": "Open",
+        "gameMode": "Team Escape",
+        "pu": true,
+        "trackId": 689,
+        "trackName": "Genesis"
+    }
+]

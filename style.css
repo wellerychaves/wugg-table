@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+	
+:root {
+	--slate-50: #f8fafc;
+	--slate-800: #1d293d;
+	--slate-900: #0f172a;
+	--slate-950: #030712;
+	--lime-600: #84cc16;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	margin: 20px;
+	background-color: var(--slate-950);
+	color: var(--slate-50);
+	user-select: none;
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: var(--slate-900);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+p {
+	font-size: 1.2rem;	
+}
+
+a {
+	text-align: center;
+	font-weight: bold;
+	color: var(--lime-600);
+	text-decoration: none;
+}
+
+.table-selector 
+{
+	width: 38rem;
+	height: fit-content;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.table-selector label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+button {
+	cursor: pointer;
+	border-radius: 0.4rem;
+	font-weight: bold;
+	color: var(--slate-50);
+	border: 1px solid var(--slate-900);
+	background-color: var(--slate-950);
+}
+
+button:hover {
+	background-color: var(--slate-800);
+}
+
+.table-selector button {
+	width: calc(10% - 10px);
+	height: 2rem;
+	margin: 0.3rem;
+	box-sizing: border-box;
+}
+
+.filter-controls {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.filter-controls label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.filter-controls button {
+	padding: 8px 12px;
+	margin-right: 5px;
+}
+
+.table-container {
+	overflow-x: auto;
+	border-radius: 0.5rem;
+	border: 1px solid black
+}
+
+#table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: var(--slate-800);
+	border-radius: 0.5rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#table thead th {
+	background-color: var(--slate-950);
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 2px solid var(--slate-900);
+}
+#table tbody td {
+	padding: 8px;
+	border-bottom: 1px solid var(--slate-900);
+}
+
+#table tbody tr:hover {
+	background-color: var(--slate-900);
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+	text-align: left;
+	width: 16rem;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 10rem;
+  text-align: center;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 4rem;
+  text-align: center;
+
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 5rem;
+  text-align: center;
+}
